@@ -122,7 +122,7 @@ git checkout <name>
 To merge branch to main locally
 
 ```
-git merge
+git merge <branch name>
 ```
 
 To view changes in code
