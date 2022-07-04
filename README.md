@@ -76,12 +76,6 @@ As shortcut to commit modified files
 git commit -am "some message"
 ```
 
-To pull changes from main to feature branch
-
-```
-git merge main
-```
-
 To undo an add or commit
 
 ```
@@ -95,6 +89,12 @@ Get a log of all commits
 
 ```
 git log
+```
+
+To merge branch to main locally
+
+```
+git merge <branch name>
 ```
 
 ## Git Branching
@@ -119,12 +119,6 @@ To switch Branches
 git checkout <name>
 ```
 
-To merge branch to main locally
-
-```
-git merge <branch name>
-```
-
 To view changes in code
 
 ```
@@ -141,4 +135,10 @@ To remove branch after merge
 
 ```
 git branch -d <branch-name>
+```
+
+To pull changes from main to feature branch
+
+```
+git merge main
 ```
