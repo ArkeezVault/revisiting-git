@@ -63,6 +63,19 @@ To set upstream to use `git push` on initial push use
 git push -u origin main
 ```
 
+To pull changes from remote
+
+```
+git pull -u origin main # if upstream not set
+git pull
+```
+
+As shortcut to commit modified files
+
+```
+git commit -am "some message"
+```
+
 ## Git Branching
 
 Branches are used to safely add new features without risking breaking your code
@@ -97,8 +110,14 @@ To view changes in code
 git diff
 ```
 
-Push branch to github
+Push branch to github, then create pull request to merge branch
 
 ```
 git push -u origin <branch-name>
+```
+
+To remove branch after merge
+
+```
+git branch -d <branch-name>
 ```
