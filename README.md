@@ -29,3 +29,36 @@ To commit changes to a repo
 git commit -m "some message"
 git commit -m "commit title" -m "commit description"
 ```
+
+To push changes to live repo
+
+```
+git push origin main
+```
+
+`origin` - location or repo
+`main` - the branch we push to
+
+To create a git repo locally
+
+```
+git init
+```
+
+To connect our local repo with the one on github
+
+```
+git remote add origin <remote repo url>
+```
+
+To check remote repo connected to local one
+
+```
+git remote -v
+```
+
+To set upstream to use `git push` on initial push use
+
+```
+git push -u origin main
+```
