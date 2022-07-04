@@ -84,3 +84,21 @@ To switch Branches
 ```
 git checkout <name>
 ```
+
+To merge branch to main locally
+
+```
+git merge
+```
+
+To view changes in code
+
+```
+git diff
+```
+
+Push branch to github
+
+```
+git push -u origin <branch-name>
+```
