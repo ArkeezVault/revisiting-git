@@ -62,3 +62,25 @@ To set upstream to use `git push` on initial push use
 ```
 git push -u origin main
 ```
+
+## Git Branching
+
+Branches are used to safely add new features without risking breaking your code
+
+To view Branches
+
+```
+git branch
+```
+
+To create a new branch
+
+```
+git checkout -b <name>
+```
+
+To switch Branches
+
+```
+git checkout <name>
+```
