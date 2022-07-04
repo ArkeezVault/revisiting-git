@@ -76,6 +76,12 @@ As shortcut to commit modified files
 git commit -am "some message"
 ```
 
+To pull changes from main to feature branch
+
+```
+git merge main
+```
+
 ## Git Branching
 
 Branches are used to safely add new features without risking breaking your code
