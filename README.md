@@ -63,7 +63,7 @@ To set upstream to use `git push` on initial push use
 git push -u origin main
 ```
 
-## Git Branching
+## Git Branching | Merge Conflict
 
 Branches are used to safely add new features without risking breaking your code
 
