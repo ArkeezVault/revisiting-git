@@ -82,6 +82,13 @@ To pull changes from main to feature branch
 git merge main
 ```
 
+To undo an add or commit
+
+```
+git reset # for add
+git reset HEAD~1 # undo last commit
+```
+
 ## Git Branching
 
 Branches are used to safely add new features without risking breaking your code
