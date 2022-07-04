@@ -87,6 +87,14 @@ To undo an add or commit
 ```
 git reset # for add
 git reset HEAD~1 # undo last commit
+git reset <commit hash> # unstage everything after this commit
+git reset --hard <commit hash> # remove changes after this commit
+```
+
+Get a log of all commits
+
+```
+git log
 ```
 
 ## Git Branching
